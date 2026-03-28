@@ -1,0 +1,9 @@
+@import "./styles/01-settings/settings.css";
+@import "./styles/02-tools/tools.css";
+@import "./styles/03-generic/generic.css";
+@import "./styles/04-elements/elements.css";
+@import "./styles/05-objects/objects.css";
+@import "./styles/06-atoms/atoms.css";
+@import "./styles/07-molecules/molecules.css";
+@import "./styles/08-organisms/organisms.css";
+@import "./styles/09-utilities/utilities.css";
