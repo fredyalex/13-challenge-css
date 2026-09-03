@@ -1,1 +1,15 @@
 /* Organisms */
+
+.og-card-container {
+    max-width: var(--size-width-cards-container);
+    border-radius: var(--border-radius-8);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+@media (min-width: 768px) {
+    .og-card-container {
+        flex-direction: row;
+    }
+}

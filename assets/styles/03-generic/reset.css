@@ -1,0 +1,11 @@
+html,
+body,
+button,
+p,
+div,
+img,
+main,
+h2 {
+    margin: 0;
+    padding: 0;
+}

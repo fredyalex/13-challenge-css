@@ -1,1 +1,38 @@
 /* Molecules */
+
+.m-card {
+    display: flex;
+    flex-direction: column;
+    max-width: var(--size-width-max-card);
+    min-width: var(--size-width-min-card);
+    gap: var(--spacing-32);
+    padding: var(--spacing-48);
+}
+
+.m-card__description {
+    flex-grow: 1;
+}
+
+.m-card--sedans {
+    background-color: var(--color-bg-card-sedans);
+}
+
+.m-card--suvs {
+    background-color: var(--color-bg-card-suvs);
+}
+
+.m-card--luxury {
+    background-color: var(--color-bg-card-luxury);
+}
+
+.m-card__button--sedans {
+    color: var(--color-text-button-sedans);
+}
+
+.m-card__button--suvs {
+    color: var(--color-text-button-suvs);
+}
+
+.m-card__button--luxury {
+    color: var(--color-text-button-luxury);
+}

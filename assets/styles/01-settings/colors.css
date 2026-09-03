@@ -1,0 +1,25 @@
+:root {
+    /* primary */
+    --color-primary-gold-100: #e38826;
+    --color-primary-cyan-800: #006970;
+    --color-primary-green-950: #004241;
+
+    /* neutral */
+    --color-neutral-grey-100: hsl(0, 0%, 95%);
+    --color-neutral-white-75: hsla(0, 0%, 100%, 0.75);
+
+    /*tokens*/
+    --color-bg-body: var(--color-neutral-grey-100);
+    --color-bg-button: var(--color-neutral-grey-100);
+    --color-bg-button-active: transparent;
+    --color-bg-card-sedans: var(--color-primary-gold-100);
+    --color-bg-card-suvs: var(--color-primary-cyan-800);
+    --color-bg-card-luxury: var(--color-primary-green-950);
+    --color-text-headings: var(--color-neutral-grey-100);
+    --color-text-paragraphs: var(--color-neutral-white-75);
+    --color-text-button-sedans: var(--color-primary-gold-100);
+    --color-text-button-suvs: var(--color-primary-cyan-800);
+    --color-text-button-luxury: var(--color-primary-green-950);
+    --color-text-button-active: var(--color-neutral-white-75);
+    --color-border-button-active: var(--color-neutral-white-75);
+}

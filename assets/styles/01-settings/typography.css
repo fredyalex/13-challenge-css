@@ -1,0 +1,19 @@
+:root {
+    /*primitives*/
+    --font-family-lexend-deca: "Lexend Deca", sans-serif;
+    --font-family-big-shoulders: "Big Shoulders", sans-serif;
+    --font-size-base: 15px;
+    --font-size-title-base: 40px;
+    --font-weight-lexend-deca-regular: 400;
+    --font-weight-big-shoulders-bold: 700;
+    --font-letter-spacing-title-base: 0.5px;
+
+    /*tokens*/
+    --font-family-titles: var(--font-family-big-shoulders);
+    --font-family-paragraphs: var(--font-family-lexend-deca);
+    --font-weight-title: var(--font-weight-big-shoulders-bold);
+    --font-weight-paragraph: var(--font-weight-lexend-deca-regular);
+    --font-size-title: var(--font-size-title-base);
+    --font-size-paragraph: var(--font-size-base);
+    --font-letter-spacing-title: var(--font-letter-spacing-title-base);
+}
